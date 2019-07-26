@@ -60,6 +60,7 @@ int main(int argc,char *argv[]){
 				}
 			} else {
 				printf("you select done");
+				return 0;
 			}
 		} else {
 			if (fd_dest = creat(argv[2], 0644)){
